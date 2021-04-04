@@ -1,0 +1,44 @@
+.img-dps img{
+    width:100%;
+}
+.announcement marquee{
+    background-color:blue;
+    color:white;
+}
+.img-dps{
+    border: 1px solid #c7c7c7;
+    padding-left: 0px;
+    padding-right: 0px;
+    float:none;
+}
+.campusMain_div{
+    border:10px solid white;
+}
+.achieve-head{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius:10px;
+    margin-bottom: 15px;
+    width:100%;
+    display:inline-block;
+}
+.achieve-head i{
+    float: right;
+}
+.achieve_name{
+    color:seagreen;
+}
+
+.img-main{
+width:400px;
+height:400px;
+border:2px;
+border-style:solid;
+padding:5px;
+}
+.headings{
+    font-size:20px;
+}
+.info{
+    font-family: cursive;
+}

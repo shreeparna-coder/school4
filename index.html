@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>School Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Delhi Public School, Dwarka</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav">
+                <li><a href="#campusLife">Campus Life</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#info">School Information</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcement">
+        <marquee id="marquee-style" onmouseover="this.stop();" onmouseout="this.start();">
+            *** Feel free to ask any queries on mail@dpsdwarka.com ***
+        </marquee>
+    </div>
+    <div class="img-dps">
+        <img id="dps" src="DPS.jpg">
+    </div>
+    <div class="container">
+        <div class="page header col-lg-12 col-md-12 col-sm-12 col-xs-1" id="campusLife">
+            <h2 class="text-capitalize">campus life</h2>
+            <div class="row">
+                <span>
+                    <div class="campusMain_div">
+                        <img class="img-responsive" src="library.jpg">
+                        <h4 class="text-capitalize"><kbd>School Library</kbd></h4>
+                        <hr>
+                        <h5 class="text-suscess text-left text-capitalize"><kbd>Built in 1998</kbd></h5>
+                        <p class="text-left text-muted">A number of books of all kinds are in here. Whatever you like you can read. Books are issued on Wednesday but to be returned on the next Wednesday.</p>
+                    </div>
+                </span>
+                <br> <br>
+                <span>
+                    <div class="campusMain_div">
+                        <img class="img-responsive" src="audi.jpg">
+                        <h4 class="text-capitalize"><kbd>School Auditorium</kbd></h4>
+                        <hr>
+                        <h5 class="text-suscess text-left text-capitalize"><kbd>Built in 1996</kbd></h5>
+                        <p class="text-left text-muted">All indoor shows and events, and ceremonies are held here. A beautiful combo of lights adds more beauty. Proper air conditioning in summers and automatic lights.</p>
+                    </div>
+                </span>
+                <br> <br>
+                <span>
+                    <div class="campusMain_div">
+                        <img class="img-responsive" src="science%20lab.jpg">
+                        <h4 class="text-capitalize"><kbd>Science Lab</kbd></h4>
+                        <hr>
+                        <h5 class="text-suscess text-left text-capitalize"><kbd>built in 1996</kbd></h5>
+                        <p class="text-left text-muted">Mostly senior students come here, but junior students go there for seeing skeleton, body parts an other microscopic things. All equipments are present here including few plants to experiment on.</p>
+                    </div>
+                </span>
+            </div>
+        </div>
+            <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="achievements">
+                <h2 class="text-capitalize">achievements</h2>
+            </div>
+            <div class="bg-primary achieve-head" data-toggle="collapse" data-target="#table_tennis">
+                <span class="glyiphicon gliphycon-film"></span>Zonal Table Tennis Tournament (Girls)<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="table_tennis" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="table%20Tennis.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xd-12 achieve-text">
+                <h4 class="achieve_name">Won 1st prize in Zonal Table Tennis Tournament for girls</h4>
+                <p>
+                The tournament was held from 9 to 17 August 2016 in Presidium School, Dwarka. Our school won the first prize. With lot's of strength and effort, our senior girls won the match.
+                </p>
+                </div>
+            </div>
+        <div class="bg-primary achieve-head" data-toggle="collapse" data-target="#bal_shakti_puraskar">
+                <span class="glyiphicon gliphycon-film"></span>Bal Shakti Puraskar<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="bal_shakti_puraskar" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="starachiever.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xd-12 achieve-text">
+                <h4 class="achieve_name">Raghav Puri Won Bal Shakti Puraskar</h4>
+                <p>
+               It is matter of immense pride that Raghav Puri, a Class XII student of DPS Dwarka, was awarded the Pradhan Mantri Rashtriya Bal Shakti Puraskar 2020 by the Hon’ble President of India, Shri Ram Nath Kovind and was also felicitated by the Hon’ble Prime Minister, Shri Narendra Modi. He was awarded in the field of innovation for his project 'Recovering History'.
+
+He has made incredible technological interventions through the project ‘Recovering History’ which uses Artificial Intelligence to reconstruct broken parts of artifacts and manuscripts for better study of history and culture. He represented India with this project at the International Science and Engineering Fair (ISEF) held at Arizona. This is the world’s biggest science fair with participants from more than 70 countries.
+                </p>
+                </div>
+            </div>
+        <div class="bg-primary achieve-head" data-toggle="collapse" data-target="#India_fest">
+                <span class="glyiphicon gliphycon-film"></span>India Fest 2019<i class="fa fa-sort-desc"></i>
+            </div>
+            <div id="India_fest" class="collapse">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <img src="India.jpg" class="img-responsive img-thumbnail">
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xd-12 achieve-text">
+                <h4 class="achieve_name">Won 2nd & 3rd prize in India Fest 2019</h4>
+                <p>
+                The school won 2nd prize in India culture quiz and 3rd prize in "Express" Art on walls. Paintingwas made on walls to express the Indian Culture. Senior students had gone to the competetion.  
+                </p>
+                </div>
+            </div>
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="events">
+                <h2 class="text-capitalize">events</h2>
+            </div>
+        <img class="img-main" src="student%20council.png">
+        
+        <h2 class="headings">Investiture Ceremony</h2>
+        <p class="para">The ceremony took place virtually on 12 November,2020. The Student Council was appointed for the primary wing. It started with a virtual lighting of the lamp then a talk show and then the levitation started. Headmistress mam gave the vote of thanks. It was a pleasure to celebrate this ceremony.</p>
+        
+        <br> <br> <br>
+        <img class="img-main" src="melange%202020.jpg">
+        
+        <h2 class="headings">Mélange 2020</h2>
+        <p class="para">With an aim to foster creative thinking and simultaneously nurture the competitive streak amongst students, DPS Dwarka organised an Inter-School Event, Mélange 2020, for the students of classes Pre-School to V, from Thursday, 19 November to Saturday, 5 December 2020, through the virtual mode.   A plethora of innovative and interesting competitions catering to the literary and cultural fields were held to harness the inherent potential of the students in diverse domains.  The event, Mélange 2020, a cornucopia of literary and cultural competitions, witnessed an enthusiastic participation from 20 schools under various categories. It served as a unique platform to enhance knowledge, develop personality and shape perspectives of the students in a competitive setup.</p>
+        
+        
+        <br> <br> <br>
+        
+        <img class="img-main" src="Japanese.jpg">
+        
+        <h2 class="headings">Nihon No Kaori 2019</h2>
+        <p class="para">DPS Dwarka under the aegis of the DPS Society organized Nihon No Kaori 2019 – Annual Inter DPS Japanese Language Festival on Friday, 23 August 2019. Students from twelve Delhi Public Schools participated in various offsite and onsite events.
+
+The Valedictory Ceremony was graced by Ms. Namita Pradhan, Chairperson, DPS Dwarka as the Chief Guest. Dr. Zeenat Khader, Joint Secretary, DPS Society was the Guest of Honour. The event was also graced by Mr. Masahiro Kobayashi, First Secretary, Embassy of Japan as the Distinguished Guest.</p>
+        
+        
+        
+        <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="School Information">
+                    <h2 class="text-capitalize">school information</h2>
+        </div>
+        <h5 class="info">Name : Delhi Public School, Dwarka</h2><br>
+        <h5 class="info">Motto : Service Before Self</h2><br>
+        <h5 class="info">Established in : 1996</h2><br>
+        <h5 class="info">Campus Area : 10 Acres</h2><br>
+        <h5 class="info">Affiliated to : CBSE</h2><br>
+        <h5 class="info">Classes : Pre-School to XII</h2>
+        <h5 class="info">Address : Delhi Public School,Dwarka, Sector-3, Phase-1, Dwarka, New Delhi-110078</h2><br>
+        <h5 class="info">E-mail : mail@dpsdwarka.com</h2><br>
+        <h5 class="info">Timings : 7:30 a.m. to 12noon (for Classes Pre-School-I)
+                                   7:30 a.m. to 2:00 p.m. (for Classes II-XII)</h2>
+
+                <div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contact">
+                    <h2 class="text-capitalize">contact us</h2>
+                </div>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7942384621488!2d77.045247715082!3d28.605948982428284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1ad327c996bf%3A0xc15d793aacb72697!2sDelhi%20Public%20School%2C%20Dwarka!5e0!3m2!1sen!2sin!4v1614666230423!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div id="details" class="details">
+                    <img src="principal.jpg" class="img-respnsive img-circle col-lg-3 col-md-3 col-sm-3 col-xs-4">
+                    <h3>Principal Name:</h3>
+                    <h4>Ms.Sunita Tanwar</h4>
+                    <div class="contact_1">
+                        <a href="mailto:mail@dpsdwarka.com?Subject:queries">
+                            <h5><i class="fa fa-envelope"></i>&nbsp;&nbsp;mail@dpsdwarka.com</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-instagram"></i>&nbsp;&nbsp;dpsInsta</h5>
+                        </a>
+                        <a href="#">
+                            <h5><i class="fa fa-phone-square"></i>&nbsp;&nbsp;011-35045111</h5>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+</body>
+
+</html>
